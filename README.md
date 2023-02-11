@@ -37,3 +37,25 @@ Un exemplu de URL complet ar fi "https://www.example.com/about?param1=value1&par
 
 
 ![image](https://user-images.githubusercontent.com/96312446/218266135-de7e7295-151a-462b-81f7-b5719da495ac.png)
+
+# HTTP Methods
+
+HTTP (HyperText Transfer Protocol) definește mai multe metode pentru a efectua cereri către un server web. Aceste metode sunt utilizate pentru a specifica acțiunea dorită asupra resurselor identificate prin URL.
+
+Următoarele sunt cele mai importante metode HTTP:
+
+1. GET: Este o cerere utilizată pentru a obține o resursă de pe server. De exemplu, când accesați o pagină web, browser-ul dvs. trimite o cerere GET pentru a obține conținutul paginii.
+
+2. POST: Este o cerere utilizată pentru a trimite informații către server, cum ar fi datele de la un formular de contact. Aceste informații sunt incluse în corpul cererii și pot fi prelucrate de server.
+
+3. PUT: Este o cerere utilizată pentru a actualiza o resursă existentă pe server.
+
+4. DELETE: Este o cerere utilizată pentru a șterge o resursă de pe server.
+
+5. HEAD: Este similar cu GET, dar returnează doar antetul cererii, fără conținutul resurselor.
+
+6. PATCH: Este o cerere utilizată pentru a actualiza o parte dintr-o resursă existentă pe server, fără a o înlocui întreaga resursă.
+
+7. OPTIONS: Este o cerere utilizată pentru a obține informații despre posibilitățile de comunicații disponibile pentru o anumită resursă sau server.
+
+Acestea sunt cele mai utilizate metode HTTP și sunt esențiale pentru a înțelege cum funcționează comunicațiile pe Internet.

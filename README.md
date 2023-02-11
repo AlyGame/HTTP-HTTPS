@@ -108,3 +108,38 @@ Aceste coduri indică că a existat o eroare cu server-ul.
 | 503 | Service Unavailable |
 
 Este important să înțelegem semnificația acestor coduri de stare HTTP pentru a putea diagnostica și rezolva problemele cu cererile web.
+
+# Headere HTTP
+
+În protocoalele HTTP, un header reprezintă un rând sau mai multe rânduri de text care conțin informații suplimentare despre cerere sau răspuns. Headerele sunt folosite pentru a transmite informații despre cerere, cum ar fi tipul conținutului, codificarea caracterelor, data și ora cererii, etc. 
+
+Unele dintre headerele HTTP cele mai utilizate sunt:
+
+## Headere cerere
+- `Accept`: Specifică tipurile de conținut acceptate de client.
+- `Accept-Encoding`: Specifică codificările acceptate de client, cum ar fi gzip sau deflate.
+- `Authorization`: Conține informații de autorizare pentru accesarea unei resurse protejate.
+- `User-Agent`: Identifică browser-ul sau agentul utilizat de client.
+- `Referer`: Specifică URL-ul de la care a fost făcută cererea.
+
+## Headere răspuns
+- `Content-Encoding`: Specifică codificarea conținutului răspunsului.
+- `Content-Length`: Specifică lungimea conținutului răspunsului în octeți.
+- `Content-Type`: Specifică tipul conținutului răspunsului, cum ar fi text/html sau application/json.
+- `Server`: Identifică software-ul server-ului care a generat răspunsul.
+- `Date`: Specifică data și ora la care a fost generat răspunsul.
+
+Headerele HTTP sunt importante pentru a oferi informații suplimentare despre cerere sau răspuns și pentru a permite interacțiunea între client și server.
+
+# Cookies în HTTP
+
+Un cookie este un fișier mic de text care este trimis de un server web către un browser și care este stocat pe computerul utilizatorului. Cookies-urile sunt utilizate pentru a păstra informații despre utilizatori, cum ar fi preferințele de navigare, informații de autentificare sau informații despre produsele selectate într-un coș de cumpărături virtual.
+
+Când utilizatorul revine la același site web, browser-ul poate trimite înapoi cookie-ul serverului pentru a permite site-ului să afișeze informațiile personalizate pentru utilizator.
+
+Cookies-urile sunt trimise între browser și server prin intermediul headerelor HTTP. De exemplu, un server poate trimite un cookie prin intermediul unui header `Set-Cookie`, iar browser-ul poate trimite înapoi cookie-ul prin intermediul header-ului `Cookie`.
+
+Cookies-urile sunt importante pentru funcționarea corectă a multor site-uri web, dar pot fi, de asemenea, folosite în mod nepotrivit pentru a urmări activitatea utilizatorilor pe internet. De aceea, majoritatea browser-elor oferă opțiuni pentru gestionarea și controlul cookies-urilor.
+
+
+![image](https://user-images.githubusercontent.com/96312446/218266559-43a50416-30e8-4c19-920b-25368471c224.png)

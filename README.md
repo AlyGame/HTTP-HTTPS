@@ -59,3 +59,52 @@ Următoarele sunt cele mai importante metode HTTP:
 7. OPTIONS: Este o cerere utilizată pentru a obține informații despre posibilitățile de comunicații disponibile pentru o anumită resursă sau server.
 
 Acestea sunt cele mai utilizate metode HTTP și sunt esențiale pentru a înțelege cum funcționează comunicațiile pe Internet.
+
+
+# HTTP Status Codes
+
+HTTP (HyperText Transfer Protocol) returnează coduri de stare pentru a indica rezultatul unei cereri. Codurile de stare sunt numere de trei cifre care indică succesul sau eșecul unei cereri și oferă informații suplimentare despre cauzele eșecului, dacă este cazul.
+
+Următoarele sunt cele mai importante categorii de coduri de stare HTTP:
+
+## 1xx - Informațional
+Aceste coduri indică că cererea a fost primită și este în curs de procesare.
+
+## 2xx - Succes
+Aceste coduri indică că cererea a fost procesată cu succes.
+
+| Cod | Descriere |
+|-----|-----------|
+| 200 | OK |
+| 201 | Created |
+| 204 | No Content |
+
+## 3xx - Redirectionare
+Aceste coduri indică că server-ul solicită acțiune suplimentară din partea clientului, cum ar fi urmărirea unei alte adrese URL.
+
+| Cod | Descriere |
+|-----|-----------|
+| 301 | Moved Permanently |
+| 302 | Found |
+| 304 | Not Modified |
+
+## 4xx - Eroare Client
+Aceste coduri indică că a existat o eroare cu cererea clientului.
+
+| Cod | Descriere |
+|-----|-----------|
+| 400 | Bad Request |
+| 401 | Unauthorized |
+| 403 | Forbidden |
+| 404 | Not Found |
+
+## 5xx - Eroare Server
+Aceste coduri indică că a existat o eroare cu server-ul.
+
+| Cod | Descriere |
+|-----|-----------|
+| 500 | Internal Server Error |
+| 502 | Bad Gateway |
+| 503 | Service Unavailable |
+
+Este important să înțelegem semnificația acestor coduri de stare HTTP pentru a putea diagnostica și rezolva problemele cu cererile web.
